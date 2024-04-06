@@ -1,0 +1,1092 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.1.2",
+  "deps": {
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "crypto-js": "^4.2.0",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.4",
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular-eslint/builder": "17.3.0",
+    "@angular-eslint/eslint-plugin": "17.3.0",
+    "@angular-eslint/eslint-plugin-template": "17.3.0",
+    "@angular-eslint/schematics": "17.3.0",
+    "@angular-eslint/template-parser": "17.3.0",
+    "@angular/cli": "~17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/jasmine": "~4.0.0",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "postcss": "^8.4.37",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "5579536870862934791"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3285122773358628022"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7103040150611556037"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "9990748129828317138"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "3867847965990219060"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "2515952721810974148"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10609267433213149010"
+      },
+      {
+        "file": "README.md",
+        "hash": "16089761208805585738"
+      },
+      {
+        "file": "angular.json",
+        "hash": "4804407161448457620"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "11714000887785125054"
+      },
+      {
+        "file": "package.json",
+        "hash": "14612588110024218087"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "5273382077847882774"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "8475919953739366443"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "9450208840493881020"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "5194690847515084388"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "11119568881257253316"
+      },
+      {
+        "file": "src/app/config/constants.ts",
+        "hash": "4004474722075505547"
+      },
+      {
+        "file": "src/app/config/index.ts",
+        "hash": "16652167392545702610"
+      },
+      {
+        "file": "src/app/config/seo.constants.ts",
+        "hash": "16536061976114130743"
+      },
+      {
+        "file": "src/app/core/directives/click-outside.directive.ts",
+        "hash": "5754794892260336362"
+      },
+      {
+        "file": "src/app/core/directives/click-outside.module.ts",
+        "hash": "16409721889944458785"
+      },
+      {
+        "file": "src/app/core/directives/dropdown.directive.ts",
+        "hash": "11497393640355576979"
+      },
+      {
+        "file": "src/app/core/directives/dropdown.module.ts",
+        "hash": "6911405798145395598"
+      },
+      {
+        "file": "src/app/core/directives/images-lazyload.directive.ts",
+        "hash": "13497791949771575040"
+      },
+      {
+        "file": "src/app/core/directives/images-lazyload.module.ts",
+        "hash": "7522040191978703326"
+      },
+      {
+        "file": "src/app/core/directives/index.ts",
+        "hash": "6779284362858210514"
+      },
+      {
+        "file": "src/app/core/directives/number-counter-destroy.ts",
+        "hash": "5561548006120749826"
+      },
+      {
+        "file": "src/app/core/directives/number-counter.directive.ts",
+        "hash": "16440297335490002627"
+      },
+      {
+        "file": "src/app/core/directives/number-counter.module.ts",
+        "hash": "988563130917792321"
+      },
+      {
+        "file": "src/app/core/directives/ripple-effect.directive.ts",
+        "hash": "7204439586633338118"
+      },
+      {
+        "file": "src/app/core/directives/ripple-effect.module.ts",
+        "hash": "3990667972798049540"
+      },
+      {
+        "file": "src/app/core/directives/skeleton.directive.ts",
+        "hash": "14713192685527289281"
+      },
+      {
+        "file": "src/app/core/directives/toggle-pass.directive.ts",
+        "hash": "8531999663587121691"
+      },
+      {
+        "file": "src/app/core/directives/toggle-pass.module.ts",
+        "hash": "12118790530197198755"
+      },
+      {
+        "file": "src/app/core/directives/tooltip.directive.ts",
+        "hash": "15726016516514509140"
+      },
+      {
+        "file": "src/app/core/directives/tooltip.module.ts",
+        "hash": "10727307073346652954"
+      },
+      {
+        "file": "src/app/core/guards/auth.guard.spec.ts",
+        "hash": "18289571106253013373"
+      },
+      {
+        "file": "src/app/core/guards/auth.guard.ts",
+        "hash": "11468265930526282631"
+      },
+      {
+        "file": "src/app/core/guards/index.ts",
+        "hash": "13549727894639747135"
+      },
+      {
+        "file": "src/app/core/guards/notLogin.guard.ts",
+        "hash": "8561075162184989475"
+      },
+      {
+        "file": "src/app/core/guards/role.guard.ts",
+        "hash": "18283931931388635276"
+      },
+      {
+        "file": "src/app/core/interceptor/auth.interceptor.ts",
+        "hash": "13945634993612957081"
+      },
+      {
+        "file": "src/app/core/interceptor/http-error.interceptor.ts",
+        "hash": "13210515483838202773"
+      },
+      {
+        "file": "src/app/core/interceptor/index.ts",
+        "hash": "8164187334590791796"
+      },
+      {
+        "file": "src/app/core/pipe/date-time.module.ts",
+        "hash": "450250129576499654"
+      },
+      {
+        "file": "src/app/core/pipe/date-time.pipe.ts",
+        "hash": "10634660337708775137"
+      },
+      {
+        "file": "src/app/core/pipe/safe.module.ts",
+        "hash": "10017942071157487137"
+      },
+      {
+        "file": "src/app/core/pipe/safe.pipe.ts",
+        "hash": "7589011834130061775"
+      },
+      {
+        "file": "src/app/core/pipe/title-case.module.ts",
+        "hash": "12047710961626441190"
+      },
+      {
+        "file": "src/app/core/pipe/title-case.pipe.ts",
+        "hash": "4471544485873856646"
+      },
+      {
+        "file": "src/app/core/services/commonServices/animation.service.ts",
+        "hash": "7806949488606364332"
+      },
+      {
+        "file": "src/app/core/services/commonServices/api-http.service.ts",
+        "hash": "4699002331260828170"
+      },
+      {
+        "file": "src/app/core/services/commonServices/auth.service.ts",
+        "hash": "11799244846291408587"
+      },
+      {
+        "file": "src/app/core/services/commonServices/console.service.ts",
+        "hash": "15866935059156187281"
+      },
+      {
+        "file": "src/app/core/services/commonServices/encryption.service.ts",
+        "hash": "16253145154584299077"
+      },
+      {
+        "file": "src/app/core/services/commonServices/geolocation.service.ts",
+        "hash": "17796139930009249609"
+      },
+      {
+        "file": "src/app/core/services/commonServices/images-lazyload.service.ts",
+        "hash": "6084250259092585134"
+      },
+      {
+        "file": "src/app/core/services/commonServices/index.ts",
+        "hash": "14489424521712567854"
+      },
+      {
+        "file": "src/app/core/services/commonServices/loader.service.ts",
+        "hash": "1802246339203326967"
+      },
+      {
+        "file": "src/app/core/services/commonServices/toast-notify.service.ts",
+        "hash": "14224345295143546706"
+      },
+      {
+        "file": "src/app/core/services/user-data.services.ts",
+        "hash": "12654370296845015685"
+      },
+      {
+        "file": "src/app/core/validators/validators.message.ts",
+        "hash": "5162128634349153124"
+      },
+      {
+        "file": "src/app/core/validators/validators.ts",
+        "hash": "18122954694050569251"
+      },
+      {
+        "file": "src/app/models/class/login.class.ts",
+        "hash": "11581278014577806518"
+      },
+      {
+        "file": "src/app/models/fakeData.model.ts",
+        "hash": "8786619554510716533"
+      },
+      {
+        "file": "src/app/models/index.ts",
+        "hash": "9183958403184198452"
+      },
+      {
+        "file": "src/app/models/interface.ts",
+        "hash": "5412585215469160199"
+      },
+      {
+        "file": "src/app/models/role.model.ts",
+        "hash": "15722665066500015916"
+      },
+      {
+        "file": "src/app/models/toaster-notification.ts",
+        "hash": "3604193978598786779"
+      },
+      {
+        "file": "src/app/models/transaction.ts",
+        "hash": "1748007454836310144"
+      },
+      {
+        "file": "src/app/models/user.interface.ts",
+        "hash": "18121923373574242591"
+      },
+      {
+        "file": "src/app/modules/auth/auth-routing.module.ts",
+        "hash": "14445049712783083716"
+      },
+      {
+        "file": "src/app/modules/auth/auth.component.html",
+        "hash": "6016414985929727865"
+      },
+      {
+        "file": "src/app/modules/auth/auth.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/auth/auth.component.spec.ts",
+        "hash": "11652736804864221583"
+      },
+      {
+        "file": "src/app/modules/auth/auth.component.ts",
+        "hash": "11501177221732266516"
+      },
+      {
+        "file": "src/app/modules/auth/auth.module.ts",
+        "hash": "16998007887259131358"
+      },
+      {
+        "file": "src/app/modules/auth/forgot-password/forgot-password.component.html",
+        "hash": "1209823987903008743"
+      },
+      {
+        "file": "src/app/modules/auth/forgot-password/forgot-password.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/auth/forgot-password/forgot-password.component.spec.ts",
+        "hash": "7173189524556815139"
+      },
+      {
+        "file": "src/app/modules/auth/forgot-password/forgot-password.component.ts",
+        "hash": "17251347764885174528"
+      },
+      {
+        "file": "src/app/modules/auth/login/login.component.html",
+        "hash": "3551686359833073692"
+      },
+      {
+        "file": "src/app/modules/auth/login/login.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/auth/login/login.component.spec.ts",
+        "hash": "11925177451109786556"
+      },
+      {
+        "file": "src/app/modules/auth/login/login.component.ts",
+        "hash": "2621910039964860399"
+      },
+      {
+        "file": "src/app/modules/auth/otp-authentication/otp-authentication.component.html",
+        "hash": "5376807540707097559"
+      },
+      {
+        "file": "src/app/modules/auth/otp-authentication/otp-authentication.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/auth/otp-authentication/otp-authentication.component.spec.ts",
+        "hash": "3488332920486005183"
+      },
+      {
+        "file": "src/app/modules/auth/otp-authentication/otp-authentication.component.ts",
+        "hash": "10956723186078512317"
+      },
+      {
+        "file": "src/app/modules/auth/register/register.component.html",
+        "hash": "15385733530813357824"
+      },
+      {
+        "file": "src/app/modules/auth/register/register.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/auth/register/register.component.spec.ts",
+        "hash": "8717394991776004070"
+      },
+      {
+        "file": "src/app/modules/auth/register/register.component.ts",
+        "hash": "1255526726864168280"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard-routing.module.ts",
+        "hash": "11382392052979989144"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard.module.ts",
+        "hash": "9853943773226861784"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard/dashboard.component.html",
+        "hash": "6289448167366289805"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard/dashboard.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard/dashboard.component.spec.ts",
+        "hash": "6804448429088905631"
+      },
+      {
+        "file": "src/app/modules/dashboard/dashboard/dashboard.component.ts",
+        "hash": "7389040776375155757"
+      },
+      {
+        "file": "src/app/role-guard.ts",
+        "hash": "8901520912899190413"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/css/date-picker.scss",
+        "hash": "3696738353624653553"
+      },
+      {
+        "file": "src/assets/css/responsive.styles.scss",
+        "hash": "5000022226052044190"
+      },
+      {
+        "file": "src/assets/css/styles.scss",
+        "hash": "11928284671743061245"
+      },
+      {
+        "file": "src/assets/fonts/OpenSans-Bold.ttf",
+        "hash": "11892525924610591276"
+      },
+      {
+        "file": "src/assets/fonts/OpenSans-Light.ttf",
+        "hash": "13313146737116076077"
+      },
+      {
+        "file": "src/assets/fonts/OpenSans-Medium.ttf",
+        "hash": "8223232862305666590"
+      },
+      {
+        "file": "src/assets/fonts/OpenSans-Regular.ttf",
+        "hash": "17287581442557783287"
+      },
+      {
+        "file": "src/assets/fonts/OpenSans-SemiBold.ttf",
+        "hash": "1858350542357151839"
+      },
+      {
+        "file": "src/assets/fonts/Poppins-Bold.ttf",
+        "hash": "3661811412608830506"
+      },
+      {
+        "file": "src/assets/fonts/Poppins-Light.ttf",
+        "hash": "98189831529622483"
+      },
+      {
+        "file": "src/assets/fonts/Poppins-Medium.ttf",
+        "hash": "2212611710025299377"
+      },
+      {
+        "file": "src/assets/fonts/Poppins-Regular.ttf",
+        "hash": "14748150737151666323"
+      },
+      {
+        "file": "src/assets/fonts/Poppins-SemiBold.ttf",
+        "hash": "1872290532348165247"
+      },
+      {
+        "file": "src/assets/images/MyServices.svg",
+        "hash": "1824313333128946761"
+      },
+      {
+        "file": "src/assets/images/aadhar-card-rounded.svg",
+        "hash": "11672813342128217847"
+      },
+      {
+        "file": "src/assets/images/aadhar-card.svg",
+        "hash": "18191307073210642300"
+      },
+      {
+        "file": "src/assets/images/address-rounded.svg",
+        "hash": "15595077871349794598"
+      },
+      {
+        "file": "src/assets/images/address.svg",
+        "hash": "16759147485360716571"
+      },
+      {
+        "file": "src/assets/images/admin-control.svg",
+        "hash": "16673373276673375028"
+      },
+      {
+        "file": "src/assets/images/aeps-menu.svg",
+        "hash": "345088114554577563"
+      },
+      {
+        "file": "src/assets/images/airtel.jpeg",
+        "hash": "17594610636986069634"
+      },
+      {
+        "file": "src/assets/images/apple.svg",
+        "hash": "3478664316573846814"
+      },
+      {
+        "file": "src/assets/images/appstore.svg",
+        "hash": "9732652601646075480"
+      },
+      {
+        "file": "src/assets/images/back-icon.svg",
+        "hash": "5668726815457517500"
+      },
+      {
+        "file": "src/assets/images/bank.svg",
+        "hash": "3020593778543485808"
+      },
+      {
+        "file": "src/assets/images/birthday-calendar-rounded.svg",
+        "hash": "846925090246856767"
+      },
+      {
+        "file": "src/assets/images/broadband.svg",
+        "hash": "4725988120054066980"
+      },
+      {
+        "file": "src/assets/images/bsnl.jpeg",
+        "hash": "3254334784824724582"
+      },
+      {
+        "file": "src/assets/images/cable-tv.svg",
+        "hash": "17093562762885499191"
+      },
+      {
+        "file": "src/assets/images/calendar.svg",
+        "hash": "5311078516979852984"
+      },
+      {
+        "file": "src/assets/images/cancel.svg",
+        "hash": "5397476171730781345"
+      },
+      {
+        "file": "src/assets/images/clubs-associations.svg",
+        "hash": "1345328527830595352"
+      },
+      {
+        "file": "src/assets/images/control-panel.svg",
+        "hash": "3480721702420330314"
+      },
+      {
+        "file": "src/assets/images/credit-card.svg",
+        "hash": "15165989336405561272"
+      },
+      {
+        "file": "src/assets/images/cylinder.svg",
+        "hash": "3917829633892873583"
+      },
+      {
+        "file": "src/assets/images/dashboard.svg",
+        "hash": "13220659885567883530"
+      },
+      {
+        "file": "src/assets/images/delete-item.svg",
+        "hash": "18083750663551639301"
+      },
+      {
+        "file": "src/assets/images/dot-menu.svg",
+        "hash": "3709445086506978431"
+      },
+      {
+        "file": "src/assets/images/dth.svg",
+        "hash": "8450396988009549036"
+      },
+      {
+        "file": "src/assets/images/education-fees.svg",
+        "hash": "350503126620705069"
+      },
+      {
+        "file": "src/assets/images/electricity.svg",
+        "hash": "12073113310355764481"
+      },
+      {
+        "file": "src/assets/images/email-rounded.svg",
+        "hash": "2520835485383556321"
+      },
+      {
+        "file": "src/assets/images/empty-qr-code.svg",
+        "hash": "1967445200291557171"
+      },
+      {
+        "file": "src/assets/images/export.svg",
+        "hash": "6549870198412014698"
+      },
+      {
+        "file": "src/assets/images/faq.svg",
+        "hash": "7645919442320191972"
+      },
+      {
+        "file": "src/assets/images/fastag.svg",
+        "hash": "7853045883651672247"
+      },
+      {
+        "file": "src/assets/images/favicon.png",
+        "hash": "1386975790586639479"
+      },
+      {
+        "file": "src/assets/images/filter.svg",
+        "hash": "12906406782732654499"
+      },
+      {
+        "file": "src/assets/images/gas.svg",
+        "hash": "18379888488786784153"
+      },
+      {
+        "file": "src/assets/images/gender.svg",
+        "hash": "12366213004071873551"
+      },
+      {
+        "file": "src/assets/images/health-insurance.svg",
+        "hash": "3177617441297079671"
+      },
+      {
+        "file": "src/assets/images/hide-pass.svg",
+        "hash": "7922165339315281360"
+      },
+      {
+        "file": "src/assets/images/hospital.svg",
+        "hash": "9760682595813551788"
+      },
+      {
+        "file": "src/assets/images/housing.svg",
+        "hash": "9074689821978300602"
+      },
+      {
+        "file": "src/assets/images/image-loading.svg",
+        "hash": "8739312234434027045"
+      },
+      {
+        "file": "src/assets/images/input-search.svg",
+        "hash": "14392843488944065831"
+      },
+      {
+        "file": "src/assets/images/insurance.svg",
+        "hash": "15115972699142514355"
+      },
+      {
+        "file": "src/assets/images/jio.jpeg",
+        "hash": "15102577496067147752"
+      },
+      {
+        "file": "src/assets/images/jio.svg",
+        "hash": "10464303692870363067"
+      },
+      {
+        "file": "src/assets/images/kitzone-build.svg",
+        "hash": "7936105358415959864"
+      },
+      {
+        "file": "src/assets/images/kitzone-login-bg.png",
+        "hash": "14108909820733353879"
+      },
+      {
+        "file": "src/assets/images/kitzone-login-wrapper.svg",
+        "hash": "17614076396021446033"
+      },
+      {
+        "file": "src/assets/images/kitzone-logo-white.png",
+        "hash": "5934912558288117235"
+      },
+      {
+        "file": "src/assets/images/kitzone_logo.png",
+        "hash": "4379104050541626362"
+      },
+      {
+        "file": "src/assets/images/kitzone_logo.svg",
+        "hash": "2628825124496336770"
+      },
+      {
+        "file": "src/assets/images/kyc.svg",
+        "hash": "11988390614581622494"
+      },
+      {
+        "file": "src/assets/images/kyc1.svg",
+        "hash": "7936727789762197170"
+      },
+      {
+        "file": "src/assets/images/kyc_error.svg",
+        "hash": "8117024199678791335"
+      },
+      {
+        "file": "src/assets/images/kyc_error1.svg",
+        "hash": "6693362541942330331"
+      },
+      {
+        "file": "src/assets/images/life-insurance.svg",
+        "hash": "3964691295887389246"
+      },
+      {
+        "file": "src/assets/images/loader.gif",
+        "hash": "15046688893891599225"
+      },
+      {
+        "file": "src/assets/images/loan.svg",
+        "hash": "1454175443113386734"
+      },
+      {
+        "file": "src/assets/images/location.svg",
+        "hash": "16109452964172122391"
+      },
+      {
+        "file": "src/assets/images/logo.svg",
+        "hash": "2223273636130143144"
+      },
+      {
+        "file": "src/assets/images/logout-btn.svg",
+        "hash": "9167153344720843858"
+      },
+      {
+        "file": "src/assets/images/logout.svg",
+        "hash": "16898222347470342698"
+      },
+      {
+        "file": "src/assets/images/mpos.svg",
+        "hash": "3608738544681744814"
+      },
+      {
+        "file": "src/assets/images/municipal-tax.svg",
+        "hash": "16183197842908134048"
+      },
+      {
+        "file": "src/assets/images/no-data.svg",
+        "hash": "1569633078159395353"
+      },
+      {
+        "file": "src/assets/images/pan.svg",
+        "hash": "2047634830752934560"
+      },
+      {
+        "file": "src/assets/images/payin.svg",
+        "hash": "3498137960289918687"
+      },
+      {
+        "file": "src/assets/images/payment.svg",
+        "hash": "14335152965786073246"
+      },
+      {
+        "file": "src/assets/images/payout.svg",
+        "hash": "14451485023860375673"
+      },
+      {
+        "file": "src/assets/images/payout1.svg",
+        "hash": "14345539370145175974"
+      },
+      {
+        "file": "src/assets/images/phone-rounded.svg",
+        "hash": "1879926530263175198"
+      },
+      {
+        "file": "src/assets/images/plan-packages.svg",
+        "hash": "7326891402081199009"
+      },
+      {
+        "file": "src/assets/images/plan_heart.svg",
+        "hash": "11770414497265809076"
+      },
+      {
+        "file": "src/assets/images/playstore.svg",
+        "hash": "6713579225353966089"
+      },
+      {
+        "file": "src/assets/images/postpaid.svg",
+        "hash": "9728806973802671586"
+      },
+      {
+        "file": "src/assets/images/prepaid.svg",
+        "hash": "6176007693982022202"
+      },
+      {
+        "file": "src/assets/images/profile-location.svg",
+        "hash": "3309972493932447067"
+      },
+      {
+        "file": "src/assets/images/profile-user.svg",
+        "hash": "17268924596559105918"
+      },
+      {
+        "file": "src/assets/images/profile_wrapper.jpg",
+        "hash": "18237695694007878851"
+      },
+      {
+        "file": "src/assets/images/qr-code.svg",
+        "hash": "2102426708421274678"
+      },
+      {
+        "file": "src/assets/images/refresh.svg",
+        "hash": "14383951484286260957"
+      },
+      {
+        "file": "src/assets/images/search-icon.svg",
+        "hash": "14656005028894137127"
+      },
+      {
+        "file": "src/assets/images/services.svg",
+        "hash": "374288503390189347"
+      },
+      {
+        "file": "src/assets/images/settings.svg",
+        "hash": "7386259761828315610"
+      },
+      {
+        "file": "src/assets/images/shopping.svg",
+        "hash": "17440645107136004922"
+      },
+      {
+        "file": "src/assets/images/show-pass.svg",
+        "hash": "8427659402138128290"
+      },
+      {
+        "file": "src/assets/images/state/andhra-pradesh.svg",
+        "hash": "4951979508534157443"
+      },
+      {
+        "file": "src/assets/images/state/arunachal-pradesh.svg",
+        "hash": "14023646382168166939"
+      },
+      {
+        "file": "src/assets/images/state/assam.svg",
+        "hash": "805901417582743560"
+      },
+      {
+        "file": "src/assets/images/state/bihar.svg",
+        "hash": "8184900710257738401"
+      },
+      {
+        "file": "src/assets/images/state/chhattisgarh.svg",
+        "hash": "4297404111175981619"
+      },
+      {
+        "file": "src/assets/images/state/gujarat.svg",
+        "hash": "15361813662288078956"
+      },
+      {
+        "file": "src/assets/images/state/haryana.svg",
+        "hash": "18219769810362464470"
+      },
+      {
+        "file": "src/assets/images/state/himachal-pradesh.svg",
+        "hash": "5916531874452441104"
+      },
+      {
+        "file": "src/assets/images/state/jammu-and-kashmir.svg",
+        "hash": "18114029228983791963"
+      },
+      {
+        "file": "src/assets/images/state/jharkhand.svg",
+        "hash": "14500326966505699323"
+      },
+      {
+        "file": "src/assets/images/state/karnataka.svg",
+        "hash": "3535129544555855805"
+      },
+      {
+        "file": "src/assets/images/state/kerala.svg",
+        "hash": "7738305124660076271"
+      },
+      {
+        "file": "src/assets/images/state/madhya-pradesh.svg",
+        "hash": "6898063483137136335"
+      },
+      {
+        "file": "src/assets/images/state/maharashtra.svg",
+        "hash": "550774732960474531"
+      },
+      {
+        "file": "src/assets/images/state/meghalaya.svg",
+        "hash": "11213475283556932995"
+      },
+      {
+        "file": "src/assets/images/state/mizoram.svg",
+        "hash": "4514204470845311344"
+      },
+      {
+        "file": "src/assets/images/state/nagaland.svg",
+        "hash": "1026152381920782068"
+      },
+      {
+        "file": "src/assets/images/state/orissa.svg",
+        "hash": "3241506627415565186"
+      },
+      {
+        "file": "src/assets/images/state/punjab.svg",
+        "hash": "913735059237107697"
+      },
+      {
+        "file": "src/assets/images/state/rajasthan.svg",
+        "hash": "15011714377944493897"
+      },
+      {
+        "file": "src/assets/images/state/sikkim.svg",
+        "hash": "11918691827533362126"
+      },
+      {
+        "file": "src/assets/images/state/tamil-nadu.svg",
+        "hash": "6039810974761762576"
+      },
+      {
+        "file": "src/assets/images/state/telangana.svg",
+        "hash": "2319634406729138696"
+      },
+      {
+        "file": "src/assets/images/state/tripura.svg",
+        "hash": "7303825396016317454"
+      },
+      {
+        "file": "src/assets/images/state/uttar-pradesh.svg",
+        "hash": "465149181959330988"
+      },
+      {
+        "file": "src/assets/images/state/uttarakhand.svg",
+        "hash": "2701240580863094173"
+      },
+      {
+        "file": "src/assets/images/state/west-bengal.svg",
+        "hash": "15711283533789293131"
+      },
+      {
+        "file": "src/assets/images/subscription.svg",
+        "hash": "17474431030178036880"
+      },
+      {
+        "file": "src/assets/images/support.svg",
+        "hash": "1439710118889615622"
+      },
+      {
+        "file": "src/assets/images/toast-error.svg",
+        "hash": "879622695087798228"
+      },
+      {
+        "file": "src/assets/images/toast-info.svg",
+        "hash": "7878949404408263832"
+      },
+      {
+        "file": "src/assets/images/toast-success.svg",
+        "hash": "15385436688410644637"
+      },
+      {
+        "file": "src/assets/images/toast-warning.svg",
+        "hash": "16542161007824151830"
+      },
+      {
+        "file": "src/assets/images/transaction.svg",
+        "hash": "15205122649305333826"
+      },
+      {
+        "file": "src/assets/images/travel.svg",
+        "hash": "72206258480664819"
+      },
+      {
+        "file": "src/assets/images/upload-to-cloud.svg",
+        "hash": "5522427102527362281"
+      },
+      {
+        "file": "src/assets/images/user.svg",
+        "hash": "17870345218643390613"
+      },
+      {
+        "file": "src/assets/images/users.svg",
+        "hash": "13997803109176102795"
+      },
+      {
+        "file": "src/assets/images/verify.svg",
+        "hash": "3239774190037197254"
+      },
+      {
+        "file": "src/assets/images/view.svg",
+        "hash": "16768713083601469737"
+      },
+      {
+        "file": "src/assets/images/vodaphone.jpeg",
+        "hash": "16610813345469259064"
+      },
+      {
+        "file": "src/assets/images/wallet.svg",
+        "hash": "14179104762097336991"
+      },
+      {
+        "file": "src/assets/images/water.svg",
+        "hash": "16687010095660079076"
+      },
+      {
+        "file": "src/assets/theme/theme-variables.scss",
+        "hash": "14398291854151587660"
+      },
+      {
+        "file": "src/assets/theme/theme.scss",
+        "hash": "7829436994452315105"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "18105114149693704062"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "9970223016315320470"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "3034925006121862610"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "12943782272092626080"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "7176339394372785858"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "18101698555768447807"
+      },
+      {
+        "file": "src/test.ts",
+        "hash": "4053851780282991023"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "6821298239127287450"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "7680944029088168050"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "2423172165561045219"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "2865802480700884171"
+      }
+    ]
+  }
+}

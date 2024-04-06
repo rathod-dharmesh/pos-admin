@@ -1,1 +1,1 @@
-# pos-admin
+# posAdmin
