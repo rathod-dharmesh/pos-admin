@@ -1,1 +1,59 @@
-<h2>Register Page</h2>
+<section class="account register">
+    <div class="row">
+        <div class="account__logo-part">
+            <div class="innerWrap">
+                <div class="logo">
+                    <img src="../../../../assets/images/logo.png" alt="">
+                </div>
+                <div class="account-btn">
+                    <a href="javascript:;" class="btn btn--rounded btn--white-border" disabled>Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="account__form">
+            <div class="innerWrap">
+                <div class="title">
+                    <h1>Register</h1>
+                </div>
+                <form action="" class="form">
+                    <div class="form__group">
+                        <label for="instID">InstID</label>
+                        <input type="text" id="instID" name="instID" placeholder="InstIDReq">
+                        <p class="error">InstID</p>
+                    </div>
+                    <div class="form__group">
+                        <label for="CorpID">CorpID</label>
+                        <input type="text" id="CorpID" name="CorpID" placeholder="CorpID" disabled>
+                    </div>
+                    <div class="form__group">
+                        <label for="ClientCode">ClientCode</label>
+                        <input type="text" id="ClientCode" name="ClientCode" placeholder="ClientCode" disabled>
+                    </div>
+                    <div class="form__group">
+                        <label for="TerminalID">TerminalID</label>
+                        <input type="text" id="TerminalID" name="TerminalID" placeholder="TerminalID">
+                        <p class="error">TerminalID</p>
+                    </div>
+                    <div class="form__group">
+                        <label for="HostName">HostName</label>
+                        <input type="text" id="HostName" name="HostName" placeholder="HostName">
+                        <p class="error">HostName</p>
+                    </div>
+                    <div class="form__group">
+                        <label for="DfltAccessMethod">DfltAccessMethod</label>
+                        <select name="accessMethod" id="DfltAccessMethod">
+                            <option value="UserID">UserID</option>
+                        </select>
+                        <p class="error">DfltAccessMethod</p>
+                    </div>
+                    <div class="form__btn">
+                        <button type="submit" class="btn btn--blue" >
+                            <i class="icofont icofont-login"></i>
+                            Register
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

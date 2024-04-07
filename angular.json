@@ -30,7 +30,10 @@
 						"styles": [
 							"src/styles.scss"
 						],
-						"scripts": [],
+						"scripts": [
+							"src/assets/js/plugins.js",
+							"src/assets/js/custom.js"
+						],
 						"aot": true
 					},
 					"configurations": {
@@ -117,6 +120,7 @@
 	"cli": {
 		"schematicCollections": [
 			"@angular-eslint/schematics"
-		]
+    ],
+    "analytics": false
 	}
 }

@@ -1,0 +1,39 @@
+div,
+aside,
+header,
+footer,
+nav,
+ul,
+li,
+img,
+a,
+body,
+html{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+body *{
+    box-sizing: border-box;
+}
