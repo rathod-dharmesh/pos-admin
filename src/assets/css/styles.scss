@@ -78,6 +78,7 @@ body{
     font-family: $font-poppins;
 }
 .btn{
+    cursor: pointer;
     outline: none;
     box-shadow: none;
     display: inline-block;
@@ -85,16 +86,17 @@ body{
     font-size: 16px;
     line-height: 1.2;
     padding: 10px 20px;
-
+    box-shadow: 2px 2px 10px rgba(45, 35, 66, 0.4);
     &--rounded{
         border-radius: 100px;
     }
-    &--white-border{
-        border: 1px solid #ffffff;
-        color: #ffffff;
+    &--white{
+        background-color: #ffffff;
+        color: #22548d;
     }
     &[disabled]{
         opacity: 0.5;
+        cursor: auto;
     }
     &--blue{
         border: 0;
@@ -114,14 +116,15 @@ body{
     }
 
     &__logo-part{
-        width: 30%;
+        width: 40%;
 
         .innerWrap{
             height: 100%;
             background-image: url('./../images/register-bg-img.png');
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: left;
+            background-position: right;
+            padding: 0 30px;
             .logo{
                 width: 200px;
                 margin: auto;
@@ -147,8 +150,9 @@ body{
                         display: inline-block;
                         color: #ffffff;
                         font-weight: 400;
-                        font-size: 12px;
+                        font-size: 16px;
                         line-height: 1.3;
+                        word-break: break-all;
                         &:last-child{
                             margin-left: 3px;
                         }
@@ -176,7 +180,11 @@ body{
         }
     }
     &__form{
-        width: 70%;
+        background-image: url('./../images/login-bg.png');
+        background-position: right center;
+        background-repeat: repeat-x;
+        background-size: 50%;
+        width: 60%;
         @include flexbox();
         @include align-items(center);
         @include justify-content(center);
@@ -185,7 +193,7 @@ body{
             width: 100%;
             max-width: 600px;
             margin: auto;
-            padding: 50px 0;
+            padding: 50px 30px;
             .title{
                 text-align: center;
                 margin-bottom: 40px;
@@ -206,20 +214,11 @@ body{
             }
         }
     }
-    &.login{
-
-        .account__form{
-            background-image: url('./../images/login-bg.png');
-            background-position: right center;
-            background-repeat: repeat-x;
-            background-size: 50%;
-        }
-    }
 }
 .form{
 
     &__group{
-        margin-top: 15px;
+        margin-top: 20px;
 
         &:first-child{
             margin-top: 0;
@@ -227,7 +226,7 @@ body{
         label{
             display: block;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.2;
             margin-bottom: 10px;
         }
@@ -235,14 +234,13 @@ body{
             width: 100%;
             border: 1px solid #8e8e8e;
             font-weight: 400;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius: 10px;
+            font-size: 18px;
             line-height: 1.2;
-            padding: 10px 15px;
-
+            padding: 12px 15px;
+            box-shadow: 2px 2px 10px rgba(45, 35, 66, 0.4);
             &:disabled{
                 background-color: #e9ecef;
-                opacity: .7;
             }
             &:focus{
                 outline: none;
@@ -253,6 +251,24 @@ body{
                 background-repeat: no-repeat;
                 background-size: 20px;
                 background-position: right 10px center;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            &::placeholder{
+                opacity: 1;
+                color: #36395A;
+            }
+            &::-moz-placeholder{
+                opacity: 1;
+                color: #36395A;
+            }
+            &:-ms-input-placeholder{
+                opacity: 1;
+                color: #36395A;
+            }
+            &::-webkit-input-placeholder{
+                opacity: 1;
+                color: #36395A;
             }
         }
         .error{
@@ -263,10 +279,12 @@ body{
             margin-top: 10px;
         }
         .invelid-error{
+            position: relative;
+            z-index: 1;
             background-color: #dc35451a;
             border: 1px solid #dc3545;
             border-top: none;
-            padding: 3px 10px;
+            padding: 5px 10px;
             margin-top: -1px;
             border-radius: 0 0 5px 5px;
         }
@@ -291,10 +309,91 @@ body{
         }
     }
 }
+.numpad-block{
+    position: relative;
+
+    .btn{
+        cursor: pointer;
+    }
+    .numpad{
+        position: absolute;
+        right: -276px;
+        width: 260px;
+        transform: translateY(-400px);
+        background-color: #ffffff;
+        z-index: 9;
+        box-shadow: 0px 5px 22px rgba(0,0,0,0.3);
+        border:1px solid #00000040;
+        border-radius: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s all;
+        .arrow{
+            position: absolute;
+            display: block;
+            top: 81%;
+            margin-top: -.5rem;
+            left: calc(-.5rem - 1px);
+            width: .5rem;
+            height: 1rem;
+            margin: .3rem 0;
+            &:before,
+            &:after{
+                position: absolute;
+                display: block;
+                content: "";
+                border-color: transparent;
+                border-style: solid;
+            }
+            &:before{
+                left: 0;
+                border-width: .5rem .5rem .5rem 0;
+                border-right-color: #00000040;
+            }
+            &::after{
+                left: 1px;
+                border-width: .5rem .5rem .5rem 0;
+                border-right-color: #fff;
+            }
+        }
+        &__header{
+            padding: 10px 10px;
+            overflow: hidden;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #87CEEB;
+            color: #ffffff;
+            font-weight: 500;
+        }
+        &__body{
+
+            .numpad-box{
+                padding: 10px 15px;
+                .row{
+                    @include flexbox();
+                    @include flex-wrap(wrap);
+                    margin: 0 -10px;
+
+                    .col{
+                        flex-basis: 0;
+                        flex-grow: 1;
+                        max-width: 100%;
+                        margin: 5px 10px;
+                    }
+                }
+            }
+        }
+        &.open{
+            transform: translateY(-325px);
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
 
 
 /* CSS */
-.button-30 {
+.numpad-num {
   align-items: center;
   appearance: none;
   background-color: #FCFCFD;
@@ -305,7 +404,6 @@ body{
   color: #36395A;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -323,18 +421,15 @@ body{
   white-space: nowrap;
   will-change: box-shadow,transform;
   font-size: 18px;
-}
-
-.button-30:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
+  &:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  &:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
 }
